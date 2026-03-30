@@ -1,4 +1,3 @@
-
 package pratikum30032026;
 
 import java.util.Scanner;
