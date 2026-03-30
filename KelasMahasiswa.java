@@ -4,13 +4,13 @@ package pratikum30032026;
 
 public class Mahasiswa {
     
-    String nama;
+    String nama;   //atribut
     String nim;
     double tugas;
     double uts;
     double uas;
     
-    Mahasiswa() {
+    Mahasiswa() {  // konstruktor
     }
     
     Mahasiswa(String n, String ni, double t, double ut, double ua) {
@@ -21,7 +21,7 @@ public class Mahasiswa {
         uas = ua;
     }
     
-    double hitungNilaiAkhir() {
+    double hitungNilaiAkhir() {   //method
         return (0.25 * tugas) + (0.35 * uts) + (0.40 * uas);
     }
 }
